@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0716A681CFDD06000C247B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0716A671CFDD06000C247B3 /* main.m */; };
+		C0716A6B1CFDD06000C247B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0716A6A1CFDD06000C247B3 /* AppDelegate.m */; };
+		C0716A6E1CFDD06000C247B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0716A6D1CFDD06000C247B3 /* ViewController.m */; };
+		C0716A711CFDD06000C247B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0716A6F1CFDD06000C247B3 /* Main.storyboard */; };
+		C0716A731CFDD06000C247B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0716A721CFDD06000C247B3 /* Assets.xcassets */; };
+		C0716A761CFDD06000C247B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0716A741CFDD06000C247B3 /* LaunchScreen.storyboard */; };
+		C0716A811CFDD06000C247B3 /* captchaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0716A801CFDD06000C247B3 /* captchaTests.m */; };
+		C0716A8C1CFDD06000C247B3 /* captchaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0716A8B1CFDD06000C247B3 /* captchaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0716A7D1CFDD06000C247B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0716A5B1CFDD06000C247B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0716A621CFDD06000C247B3;
+			remoteInfo = captcha;
+		};
+		C0716A881CFDD06000C247B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0716A5B1CFDD06000C247B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0716A621CFDD06000C247B3;
+			remoteInfo = captcha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0716A631CFDD06000C247B3 /* captcha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = captcha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0716A671CFDD06000C247B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0716A691CFDD06000C247B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0716A6A1CFDD06000C247B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0716A6C1CFDD06000C247B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0716A6D1CFDD06000C247B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0716A701CFDD06000C247B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0716A721CFDD06000C247B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0716A751CFDD06000C247B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0716A771CFDD06000C247B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0716A7C1CFDD06000C247B3 /* captchaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = captchaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0716A801CFDD06000C247B3 /* captchaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = captchaTests.m; sourceTree = "<group>"; };
+		C0716A821CFDD06000C247B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0716A871CFDD06000C247B3 /* captchaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = captchaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0716A8B1CFDD06000C247B3 /* captchaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = captchaUITests.m; sourceTree = "<group>"; };
+		C0716A8D1CFDD06000C247B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0716A601CFDD06000C247B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0716A791CFDD06000C247B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0716A841CFDD06000C247B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0716A5A1CFDD06000C247B3 = {
+			isa = PBXGroup;
+			children = (
+				C0716A651CFDD06000C247B3 /* captcha */,
+				C0716A7F1CFDD06000C247B3 /* captchaTests */,
+				C0716A8A1CFDD06000C247B3 /* captchaUITests */,
+				C0716A641CFDD06000C247B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0716A641CFDD06000C247B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0716A631CFDD06000C247B3 /* captcha.app */,
+				C0716A7C1CFDD06000C247B3 /* captchaTests.xctest */,
+				C0716A871CFDD06000C247B3 /* captchaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0716A651CFDD06000C247B3 /* captcha */ = {
+			isa = PBXGroup;
+			children = (
+				C0716A691CFDD06000C247B3 /* AppDelegate.h */,
+				C0716A6A1CFDD06000C247B3 /* AppDelegate.m */,
+				C0716A6C1CFDD06000C247B3 /* ViewController.h */,
+				C0716A6D1CFDD06000C247B3 /* ViewController.m */,
+				C0716A6F1CFDD06000C247B3 /* Main.storyboard */,
+				C0716A721CFDD06000C247B3 /* Assets.xcassets */,
+				C0716A741CFDD06000C247B3 /* LaunchScreen.storyboard */,
+				C0716A771CFDD06000C247B3 /* Info.plist */,
+				C0716A661CFDD06000C247B3 /* Supporting Files */,
+			);
+			path = captcha;
+			sourceTree = "<group>";
+		};
+		C0716A661CFDD06000C247B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0716A671CFDD06000C247B3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0716A7F1CFDD06000C247B3 /* captchaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0716A801CFDD06000C247B3 /* captchaTests.m */,
+				C0716A821CFDD06000C247B3 /* Info.plist */,
+			);
+			path = captchaTests;
+			sourceTree = "<group>";
+		};
+		C0716A8A1CFDD06000C247B3 /* captchaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0716A8B1CFDD06000C247B3 /* captchaUITests.m */,
+				C0716A8D1CFDD06000C247B3 /* Info.plist */,
+			);
+			path = captchaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0716A621CFDD06000C247B3 /* captcha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0716A901CFDD06000C247B3 /* Build configuration list for PBXNativeTarget "captcha" */;
+			buildPhases = (
+				C0716A5F1CFDD06000C247B3 /* Sources */,
+				C0716A601CFDD06000C247B3 /* Frameworks */,
+				C0716A611CFDD06000C247B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = captcha;
+			productName = captcha;
+			productReference = C0716A631CFDD06000C247B3 /* captcha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0716A7B1CFDD06000C247B3 /* captchaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0716A931CFDD06000C247B3 /* Build configuration list for PBXNativeTarget "captchaTests" */;
+			buildPhases = (
+				C0716A781CFDD06000C247B3 /* Sources */,
+				C0716A791CFDD06000C247B3 /* Frameworks */,
+				C0716A7A1CFDD06000C247B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0716A7E1CFDD06000C247B3 /* PBXTargetDependency */,
+			);
+			name = captchaTests;
+			productName = captchaTests;
+			productReference = C0716A7C1CFDD06000C247B3 /* captchaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0716A861CFDD06000C247B3 /* captchaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0716A961CFDD06000C247B3 /* Build configuration list for PBXNativeTarget "captchaUITests" */;
+			buildPhases = (
+				C0716A831CFDD06000C247B3 /* Sources */,
+				C0716A841CFDD06000C247B3 /* Frameworks */,
+				C0716A851CFDD06000C247B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0716A891CFDD06000C247B3 /* PBXTargetDependency */,
+			);
+			name = captchaUITests;
+			productName = captchaUITests;
+			productReference = C0716A871CFDD06000C247B3 /* captchaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0716A5B1CFDD06000C247B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ligen;
+				TargetAttributes = {
+					C0716A621CFDD06000C247B3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C0716A7B1CFDD06000C247B3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C0716A621CFDD06000C247B3;
+					};
+					C0716A861CFDD06000C247B3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C0716A621CFDD06000C247B3;
+					};
+				};
+			};
+			buildConfigurationList = C0716A5E1CFDD06000C247B3 /* Build configuration list for PBXProject "captcha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0716A5A1CFDD06000C247B3;
+			productRefGroup = C0716A641CFDD06000C247B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0716A621CFDD06000C247B3 /* captcha */,
+				C0716A7B1CFDD06000C247B3 /* captchaTests */,
+				C0716A861CFDD06000C247B3 /* captchaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0716A611CFDD06000C247B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0716A761CFDD06000C247B3 /* LaunchScreen.storyboard in Resources */,
+				C0716A731CFDD06000C247B3 /* Assets.xcassets in Resources */,
+				C0716A711CFDD06000C247B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0716A7A1CFDD06000C247B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0716A851CFDD06000C247B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0716A5F1CFDD06000C247B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0716A6E1CFDD06000C247B3 /* ViewController.m in Sources */,
+				C0716A6B1CFDD06000C247B3 /* AppDelegate.m in Sources */,
+				C0716A681CFDD06000C247B3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0716A781CFDD06000C247B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0716A811CFDD06000C247B3 /* captchaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0716A831CFDD06000C247B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0716A8C1CFDD06000C247B3 /* captchaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0716A7E1CFDD06000C247B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0716A621CFDD06000C247B3 /* captcha */;
+			targetProxy = C0716A7D1CFDD06000C247B3 /* PBXContainerItemProxy */;
+		};
+		C0716A891CFDD06000C247B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0716A621CFDD06000C247B3 /* captcha */;
+			targetProxy = C0716A881CFDD06000C247B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0716A6F1CFDD06000C247B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0716A701CFDD06000C247B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0716A741CFDD06000C247B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0716A751CFDD06000C247B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0716A8E1CFDD06000C247B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0716A8F1CFDD06000C247B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0716A911CFDD06000C247B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = captcha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingshanliuyun.captcha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0716A921CFDD06000C247B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = captcha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingshanliuyun.captcha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C0716A941CFDD06000C247B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = captchaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingshanliuyun.captchaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/captcha.app/captcha";
+			};
+			name = Debug;
+		};
+		C0716A951CFDD06000C247B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = captchaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingshanliuyun.captchaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/captcha.app/captcha";
+			};
+			name = Release;
+		};
+		C0716A971CFDD06000C247B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = captchaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingshanliuyun.captchaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = captcha;
+			};
+			name = Debug;
+		};
+		C0716A981CFDD06000C247B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = captchaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qingshanliuyun.captchaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = captcha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0716A5E1CFDD06000C247B3 /* Build configuration list for PBXProject "captcha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0716A8E1CFDD06000C247B3 /* Debug */,
+				C0716A8F1CFDD06000C247B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0716A901CFDD06000C247B3 /* Build configuration list for PBXNativeTarget "captcha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0716A911CFDD06000C247B3 /* Debug */,
+				C0716A921CFDD06000C247B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0716A931CFDD06000C247B3 /* Build configuration list for PBXNativeTarget "captchaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0716A941CFDD06000C247B3 /* Debug */,
+				C0716A951CFDD06000C247B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C0716A961CFDD06000C247B3 /* Build configuration list for PBXNativeTarget "captchaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0716A971CFDD06000C247B3 /* Debug */,
+				C0716A981CFDD06000C247B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0716A5B1CFDD06000C247B3 /* Project object */;
+}
