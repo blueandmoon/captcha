@@ -15,6 +15,8 @@
 		C0716A761CFDD06000C247B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0716A741CFDD06000C247B3 /* LaunchScreen.storyboard */; };
 		C0716A811CFDD06000C247B3 /* captchaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0716A801CFDD06000C247B3 /* captchaTests.m */; };
 		C0716A8C1CFDD06000C247B3 /* captchaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0716A8B1CFDD06000C247B3 /* captchaUITests.m */; };
+		C0716A9A1CFDD0EE00C247B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0716A991CFDD0EE00C247B3 /* CoreGraphics.framework */; };
+		C0716AA01CFDD17F00C247B3 /* LGCaptchaView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0716A9F1CFDD17F00C247B3 /* LGCaptchaView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		C0716A871CFDD06000C247B3 /* captchaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = captchaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0716A8B1CFDD06000C247B3 /* captchaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = captchaUITests.m; sourceTree = "<group>"; };
 		C0716A8D1CFDD06000C247B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0716A991CFDD0EE00C247B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C0716A9E1CFDD17F00C247B3 /* LGCaptchaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCaptchaView.h; sourceTree = "<group>"; };
+		C0716A9F1CFDD17F00C247B3 /* LGCaptchaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCaptchaView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0716A9A1CFDD0EE00C247B3 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,7 @@
 		C0716A5A1CFDD06000C247B3 = {
 			isa = PBXGroup;
 			children = (
+				C0716A991CFDD0EE00C247B3 /* CoreGraphics.framework */,
 				C0716A651CFDD06000C247B3 /* captcha */,
 				C0716A7F1CFDD06000C247B3 /* captchaTests */,
 				C0716A8A1CFDD06000C247B3 /* captchaUITests */,
@@ -105,6 +112,8 @@
 				C0716A6A1CFDD06000C247B3 /* AppDelegate.m */,
 				C0716A6C1CFDD06000C247B3 /* ViewController.h */,
 				C0716A6D1CFDD06000C247B3 /* ViewController.m */,
+				C0716A9E1CFDD17F00C247B3 /* LGCaptchaView.h */,
+				C0716A9F1CFDD17F00C247B3 /* LGCaptchaView.m */,
 				C0716A6F1CFDD06000C247B3 /* Main.storyboard */,
 				C0716A721CFDD06000C247B3 /* Assets.xcassets */,
 				C0716A741CFDD06000C247B3 /* LaunchScreen.storyboard */,
@@ -202,6 +211,7 @@
 		C0716A5B1CFDD06000C247B3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LG;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = ligen;
 				TargetAttributes = {
@@ -270,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0716AA01CFDD17F00C247B3 /* LGCaptchaView.m in Sources */,
 				C0716A6E1CFDD06000C247B3 /* ViewController.m in Sources */,
 				C0716A6B1CFDD06000C247B3 /* AppDelegate.m in Sources */,
 				C0716A681CFDD06000C247B3 /* main.m in Sources */,
