@@ -21,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor redColor];
     
     _captchaView = [[LGCaptchaView alloc] initWithFrame:CGRectMake(20, 40, 150, 40)];
     [self.view addSubview:_captchaView];
